@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script+Swash+Caps&display=swap');
+body { 
+	font-size: 20px;
+	line-height: 1.6;
+	color: #624121;
+	margin: 0 auto;
+	padding:  150px 150px 0;
+	background-image: url('../images/back1.png');
+	background-repeat: repeat;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+main {
+	font-family: 'Oleo Script Swash Caps', cursive;
+	border-radius: 15px;
+}
+.wrap {
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+header {
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	font-family: 'Lobster', cursive;
+	margin-bottom: 50px;
+}
+.header_logo {
+	padding: 0;
+	display: block;
+	margin-left: 20px;
+}
+.navigation {
+	width: 100%;
+	background-color: #624121;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 15px;
+	padding: 20px;
+}
+nav a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.nav {
+	position: relative;
+	display: flex;
+	text-align: center;
+	text-transform: uppercase;
+}
+.nav-in-header {
+	margin-right: 30px;
+	font-size: 30px;
+}
+.nav-in-header:hover{
+	background-color: #005800;
+	transition: background-color .2s linear;
+}
+section {
+	padding: 30px 20px;
+	margin-bottom: 50px;
+	background-color: #fffacd;
+	border-radius: 15px;
+}
+.in-italy {
+	align-items: center;
+}
+h3 {
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	margin: auto;
+	width: 280px;
+	text-align: center;
+	border-bottom: 2px solid #624121;
+	padding-bottom: 5px;
+	align-items: center;
+	margin-bottom: 50px;
+}
+h4 {
+	font-family: 'Lobster', cursive;
+}
+.intro {
+	text-align: center;
+	display: block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.quote {
+	text-align: center;
+	display: block;
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+.italy {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.recept {
+	width: 100%;
+	padding: 0 30px 0;
+	display: flex;
+	justify-content: space-between;
+
+}
+.img img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+}
+.text {
+	width: 45%;
+}
+.text_n {
+	width: 50%;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+.img_n{
+	display: block;
+	margin-left: 33px;
+	margin-right: auto;
+	border-radius: 15px;
+}
+
+.other {
+	display: block;
+	margin: 5px 30px 30px;
+	color: #624121;
+}
+.left {
+	text-align: right;
+	margin-top: 10px;
+}
+.pro {
+	border-radius: 0px;
+	margin: 20px 0 35px;
+}
+.contacts {
+	background-color: #624121;
+	color: #ffffff;
+	border-bottom:#ffffff;
+	border-radius: 0px;
+}
+.cont {
+	border-bottom: 2px solid #ffffff;
+}
+.topbutton {
+	text-decoration: none;
+	width: 100px;
+	background-color: #000;
+	text-align: center;
+	padding: 10px;
+	position: fixed;
+	bottom: 50px;
+	right: 30px;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 600;
+	border-radius: 4px;
+}
+.topbutton:hover{
+	background-color: #005800;
+}
+
+.infa {
+	display: flex;
+	justify-content: space-between;
+}
+.in-block {
+	display: block;
+	margin-left: 20px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
+footer {
+	background-color: rgb(0, 0, 0);
+	color: #ffffff;
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	margin-top: -50px;
+}
+.tech {
+	display: block;
+	text-transform: uppercase;
+}
